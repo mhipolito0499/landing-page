@@ -6,12 +6,13 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 64px;
+
 }
 
 .c1-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between ;
     align-items: flex-start;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 36px;
@@ -47,11 +48,12 @@ ul {
     display: flex;
     justify-content: center;
     gap: 24px;
+    align-content: center;
     
 }
 
 .c1-main-content {
-    padding: 16px;
+    
     margin: 16px;
     width: 300px;
 }
@@ -83,16 +85,76 @@ ul {
 
 img {
     background: gray;
+    align-self: center;
+    height: 128px;
 }
 
-
+/*------------------------------------------------------------------------------------------------------*/
 .container-2 {
-
+    text-align: center;
+    margin: 64px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.c2-header {
+    font-weight:900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.c2-content {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 64px;
+    
+}
+
+.card {
+    width: 264px;
+}
+
+.c2-subtext {
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
 
 .container-3 {
     background: #e5e7eb;
+    font-weight: 100;
 }
+
+.c3-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 64px;
+}
+
+.quote {
+    display: flex;
+    width: 912px;
+    height: 128px;
+    font: italic 100 36px sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.author {
+    display: flex;
+    width: 960px;;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
 
 .container-4 {
 
